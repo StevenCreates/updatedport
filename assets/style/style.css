@@ -1,0 +1,302 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+.imgClass {
+  width: 40%;
+  height: 40%;
+}
+
+#stevenHofheins {
+  font-family: "Mrs Sheppards", cursive;
+  font-size: 67px;
+  font-weight: bold;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.center {
+  text-align: center;
+}
+
+.colQuarter {
+  width: 25%;
+  display: inline-block;
+}
+
+.colTwothird {
+  width: 74%;
+  display: inline-block;
+}
+
+.colThird {
+  width: 33%;
+  display: inline-block;
+}
+
+.aboutPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutMe {
+  background: white;
+  border-radius: 9px;
+  max-width: 80%;
+  margin: auto;
+  box-shadow: 5px 5px 2px #acacac;
+}
+
+.aboutContainer {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+.aboutText {
+  margin-top: 6px;
+  margin-bottom: 2px;
+  font-family: "Mrs Sheppards", cursive;
+  font-size: 55px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  width: 100%;
+  display: block;
+}
+
+.colFifty {
+  width: 49%;
+  display: inline-block;
+}
+
+.socialRow {
+  width: 100%;
+  display: block;
+}
+
+.socialIcon {
+  font-size: 36px;
+  color: #e3b41b;
+  position: static;
+}
+
+.verticalalign-top {
+  vertical-align: top;
+}
+
+a.navButton:link {
+  color: white;
+  text-decoration: none;
+}
+a.navButton:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.navButton:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a.navButton:active {
+  text-decoration: none;
+}
+.navButton {
+  color: none;
+  background: #e3b41b;
+  border-radius: 3px;
+  float: right;
+  margin: 6px;
+  padding: 6px;
+  font-weight: bolder;
+  font-size: 18px;
+  border-right: solid 6px #ffcb21;
+  border-bottom: solid 6px #ffcb21;
+}
+
+.flashit {
+  -webkit-animation: lightening ease-out 10s infinite;
+  -moz-animation: lightening ease-out 10s infinite;
+  animation: lightening ease-out 10s infinite;
+  animation-delay: 2s;
+}
+@-webkit-keyframes lightening {
+  0% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 0.6;
+  }
+  4% {
+    opacity: 0.2;
+  }
+  6% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightening {
+  0% {
+    opacity: 1;
+  }
+  2% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 0.6;
+  }
+  4% {
+    opacity: 0.2;
+  }
+  6% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mContainer {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.portfolioImage {
+  background: white;
+  border-radius: 4px;
+  margin: 3px;
+}
+
+.portfolioText {
+  font-family: "Mrs Sheppards", cursive;
+  font-size: 39px;
+}
+.marginbtwenty {
+  margin-bottom: 20px;
+}
+.gitButton {
+  background: #cf4473;
+  border-radius: 3px;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+}
+
+a.gitButton:link {
+  color: white;
+  text-decoration: none;
+}
+a.gitButton:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.gitButton:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a.gitButton:active {
+  text-decoration: none;
+}
+
+.w100 {
+  width: 100%;
+}
+.liveButton {
+  background: #0ac294;
+  border-radius: 3px;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+}
+
+a.liveButton:link {
+  color: white;
+  text-decoration: none;
+}
+a.liveButton:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.liveButton:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a.liveButton:active {
+  text-decoration: none;
+}
+
+
+
+.contactButton {
+    background: #925ef3;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 95%;
+    display: block;
+    border-right: solid 6px #5b399b;
+    border-bottom: solid 6px #5b399b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+  }
+
+  a.contactButton:link {
+    color: white;
+    text-decoration: none;
+  }
+  a.contactButton:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  a.contactButton:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  a.contactButton:active {
+    text-decoration: none;
+  }
+
+
+  .contactText {
+      font-size: 50px;
+      font-weight: bolder;
+  }
+
+  .mContainerBG {
+    background: white;
+    border-radius: 5px;
+    padding-bottom: 6px;
+    box-shadow: 5px 5px 2px #acacac;
+  }
