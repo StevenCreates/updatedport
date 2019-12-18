@@ -91,7 +91,7 @@ body {
 
 .socialIcon {
   font-size: 36px;
-  color: #e3b41b;
+  color: #d4af37;
   position: static;
 }
 
@@ -118,15 +118,15 @@ a.navButton:active {
 }
 .navButton {
   color: none;
-  background: #e3b41b;
+  background: #d4af37;
   border-radius: 3px;
   float: right;
   margin: 6px;
   padding: 6px;
   font-weight: bolder;
   font-size: 18px;
-  border-right: solid 6px #ffcb21;
-  border-bottom: solid 6px #ffcb21;
+  border-right: solid 6px #f1c83f;
+  border-bottom: solid 6px #f1c83f;
 }
 
 .flashit {
@@ -254,14 +254,14 @@ a.liveButton:active {
 
 
 .contactButton {
-    background: #925ef3;
+    background: #d4af37;
     border-radius: 3px;
     font-weight: bolder;
     font-size: 18px;
     width: 95%;
     display: block;
-    border-right: solid 6px #5b399b;
-    border-bottom: solid 6px #5b399b;
+    border-right: solid 6px #f1c83f;
+    border-bottom: solid 6px #f1c83f;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 9px;
